@@ -21,7 +21,7 @@ jobs:
       - uses: dtolnay/rust-toolchain@b3b07ba8b418998c39fb20f53e8b695cdcc8de1b
         with:
           toolchain: stable
-      - uses: taiki-e/install-action@9ba3ac3fd006a70c6e186a683577abc1ccf0ff3a # v2.54.0
+      - uses: taiki-e/install-action@2c73a741d1544cc346e9b0af11868feba03eb69d # v2.58.9
         with:
           tool: cargo-binstall,just,ripgrep,wasmtime
         env:
