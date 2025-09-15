@@ -37,7 +37,7 @@ jobs:
             GITHUB_TOKEN=github:token
 
       - name: Run release-plz
-        uses: release-plz/action@8724d33cd97b8295051102e2e19ca592962238f5 # v0.5.108
+        uses: release-plz/action@acb9246af4d59a270d1d4058a8b9af8c3f3a2559 # v0.5.117
         with:
           command: release
 
@@ -73,6 +73,6 @@ jobs:
             GITHUB_TOKEN=github:token
 
       - name: Run release-plz
-        uses: release-plz/action@8724d33cd97b8295051102e2e19ca592962238f5 # v0.5.108
+        uses: release-plz/action@acb9246af4d59a270d1d4058a8b9af8c3f3a2559 # v0.5.117
         with:
           command: release-pr
